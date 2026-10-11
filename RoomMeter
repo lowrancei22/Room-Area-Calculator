@@ -1,0 +1,12 @@
+set_Length = input("Please type Length \n")
+set_Width = input("please type width \n ")
+set_price = input("How much For 1 Meter\n")
+Length = float(set_Length)
+Width = float(set_Width)
+price = float(set_price)
+area = Width *Length
+total_price = price * area
+str_area = str(area)
+str_total_price = str(total_price) 
+print("The total area is : " + str_area)
+print("Give the guy :"  + str_total_price + "$")
